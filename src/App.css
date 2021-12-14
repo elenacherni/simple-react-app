@@ -1,0 +1,28 @@
+.App {
+  /* text-align: center; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding: 15px 25px;
+  margin: 10px 10px;
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background-color:rgb(154, 108, 201)
+}
+
+.btn:active {
+  background-color: rgb(154, 108, 201);
+}
