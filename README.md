@@ -1,5 +1,7 @@
 # Simple React App
 
+A simple react app that built using react hooks and type script.
+
 ## Available Scripts
 
 In the project directory, you can run:
