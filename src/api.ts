@@ -8,7 +8,7 @@ export interface User {
 }
 
 export const api = {
-    //data status vars
+    //data status options
     DATA_INIT: 0,
     DATA_LOADING: 1,
     DATA_ERROR: 2,
@@ -18,10 +18,6 @@ export const api = {
         try {
             const res = await axios.get('https://gorest.co.in/public/v1/users');
             const users = res.data.data;
-            //regex
-            // users.forEach( user => {
-                
-            // });
             return users;
         }
         catch (error) {

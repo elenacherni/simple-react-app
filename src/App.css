@@ -1,8 +1,31 @@
-.App {
+html, body, #root, .app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex; 
+  flex-flow: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.app-header {
+  display: flex;
+  flex-flow: column;
+  background-color: rgb(213, 192, 235);
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  flex: 10;
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
+  align-items: flex-start;
+  padding: 20px 20px
 }
 
 .btn {
@@ -15,7 +38,6 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
-
 }
 
 .btn:hover {
@@ -28,5 +50,15 @@
 
 .inactive {
   color: red;
+}
+
+.data-status {
+  font-weight: bold;
+  margin-top: 18px;
+  padding-left: 40px;
+}
+
+.user-list > li {
+  margin-bottom: 5px;
 }
 

@@ -23,10 +23,13 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <h2>Simple React App</h2>
-      <Button title={"Get Users"} onClickFn={getUsersClicked} />
-      <UserList users={users} status={status}/>
+    <div className="app">
+      <header className="app-header">
+        <Button title={"Get Users"} onClickFn={getUsersClicked} />
+      </header>
+      <main>
+        <UserList users={users} status={status} />
+      </main>
     </div>
   );
 }
