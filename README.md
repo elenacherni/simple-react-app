@@ -1,6 +1,6 @@
 # Simple React App
 
-A simple react app that built using react hooks and type script.
+A simple react app that built using React Hooks and TypeScript.
 
 ## Available Scripts
 
